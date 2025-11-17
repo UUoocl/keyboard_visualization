@@ -67,7 +67,7 @@
     
     <script>
       var timer
-      obs.on("InputSettingsChanged", async function (event) {
+      obsWss.on("InputSettingsChanged", async function (event) {
         //console.log(event);
         switch (event.inputName) {
           case 'cursor':
